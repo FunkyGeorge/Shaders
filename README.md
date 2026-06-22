@@ -11,3 +11,10 @@ odin run .
 
 ## Colors demo
 <img width="797" height="597" alt="image" src="https://github.com/user-attachments/assets/8084dbf0-b191-4147-901b-0502ac28b1e7" />
+
+## Piet Mondrian painting demo
+
+```
+cd shapes
+odin run painting.odin -file
+```
