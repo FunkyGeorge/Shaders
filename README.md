@@ -18,3 +18,5 @@ odin run .
 cd shapes
 odin run painting.odin -file
 ```
+<img width="805" height="603" alt="image" src="https://github.com/user-attachments/assets/a4bf3c2e-b087-40bd-8dca-543944a9a038" />
+
