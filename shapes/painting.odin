@@ -55,7 +55,10 @@ main :: proc() {
 	vertices := [?]f32{-1.0, -1.0, 1.0, -1.0, 1.0, 1.0, -1.0, -1.0, 1.0, 1.0, -1.0, 1.0}
 
 	// The shader loading they create can be replaced with just this
-	shaderProgram, loaded_ok := gl.load_shaders_file("./res/vertex.vert", "./res/fragment.frag")
+	shaderProgram, loaded_ok := gl.load_shaders_file(
+		"./res/vertex.vert",
+		"./res/pietmondrian.frag",
+	)
 	if !loaded_ok {
 		os.exit(-1)
 	}
