@@ -1,0 +1,6 @@
+Shaders
+
+*.exe
+*.pdb
+
+build/
